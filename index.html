@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+    integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <title>Weather Check</title>
+</head>
+
+<body>
+  <header id="header">
+    <p>Check The Weather At The Moment</p>
+  </header>
+
+  <div class="container">
+    <div class="cover">
+      <img id="img" src="assets/city-weather02.jpg" alt="">
+    </div>
+
+    <div class="row">
+      <form class="col-sm-8 offset-sm-2" id="city-form">
+        <div class="form-group">
+          <label for="city"></label>
+          <input type="text" id="city" class="form-control"
+            placeholder="Enter a city here" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Check the weather!</button>
+      </form>
+
+      <div id="response-container" style="width: fit-content; margin: 75px auto; display: none;">
+        <h1 id="response" style="width: fit-content;"></h1>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-text"><span>©</span> Copyrights to Redouane Bekkouche 2021</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

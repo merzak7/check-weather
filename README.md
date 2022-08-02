@@ -1,4 +1,4 @@
-- You can review the app here: https://red1code.github.io/check-weather/
+- You can preview the app here: https://red1code.github.io/check-weather/
 
 # Description
 

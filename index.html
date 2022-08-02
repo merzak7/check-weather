@@ -3,43 +3,44 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
-    integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
   <title>Weather Check</title>
 </head>
 
 <body>
-  <header id="header">
-    <p>Check The Weather At The Moment</p>
+  <header class="hdr-container">
+    <h1>Check The Weather At The Moment</h1>
   </header>
 
   <main class="container">
-    <div class="cover">
-      <img id="img" src="assets/city-weather02.jpg" alt="">
-    </div>
-
-    <div class="row">
-      <form class="col-sm-8 offset-sm-2" id="city-form">
-        <div class="form-group">
-          <label for="city"></label>
-          <input type="text" id="city" class="form-control"
-            placeholder="Enter a city here" required>
-        </div>
-        <button class="btn btn-primary" type="submit">Check the weather!</button>
-      </form>
-
-      <div id="response-container" style="width: fit-content; margin: 75px auto; display: none;">
-        <h1 id="response" style="width: fit-content;"></h1>
+    <form id="city-form">
+      <div class="form-group">
+        <label for="city-input" id="city-lbl">City Name: </label>
+        <input type="text" id="city-input" name="city" placeholder="Enter a city name here" required>
       </div>
-    </div>
+
+      <button class="submit-btn" type="submit">
+        Check Weather
+      </button>
+
+      <button class="reset-btn" id="reset-btn" type="reset">
+        Reset
+      </button>
+    </form>
+
+    <div id="response" class="response">sgqsgqsgqsgrg</div>
   </main>
 
   <footer>
-    <div class="footer-text"><span>©</span> Copyrights to Redouane Bekkouche 2021</div>
+    <div class="footer-text">
+      <span>©</span>
+      Copyrights to
+      <a class="red1dev-link" href="https://twitter.com/red1dev" target="_blank">Red1Dev</a>
+      <span id="year-holder"></span>
+    </div>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>

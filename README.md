@@ -1,7 +1,8 @@
-- You can preview the app here: https://red1code.github.io/check-weather/
+# Check-Weather
+You can preview the app here: [Link](https://red1code.github.io/check-weather/)
 
-# Description
+## Description
 
-A simple web app to check the weather in any city in the world. Just enter the name of the city in the text box, and enter "Check Weather" button.
+A simple web app to check the weather in any city in the world. Just enter the name of the city in the text box, and enter **Check Weather** button.
 
 Built with HTML, CSS and vanilla Javascript.
